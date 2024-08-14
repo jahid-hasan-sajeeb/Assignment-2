@@ -541,9 +541,100 @@ thead tr, tbody tr {
 }
 
 
+.membership{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.membership-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.29vw;
+    font-weight: 800;
+    line-height: 2.64vw;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 1.71vw;
+    margin-top: 100px;
+}
+
+.membership-description{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.14vw;
+    font-weight: 400;
+    line-height: 1.86vw;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 60.86vw;
+    opacity: 0.7;
+    margin-bottom: 3.43vw;
+}
+
+.box-container{
+    display: flex;
+    gap:1.71vw;
+    margin-bottom: 7.93vw;
+}
+
+.box-1{
+    border-radius: 1.14vw;
+    background: rgb(193, 76, 187);
+    padding: 2.86vw;
+}
+
+.box-2{
+    border-radius: 1.14vw;
+    background: rgba(43, 99, 212);
+    padding: 2.86vw;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.71vw;
+    font-weight: 800;
+    line-height: 2.57vw;
+    text-align: left;
+    margin-bottom: 0.57vw;
+}
+
+.box-description{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 1.14vw;
+    font-weight: 400;
+    line-height: 1.86vw;
+    text-align: left;
+    opacity: 0.7;
+    width: 20.29vw;
+    margin-bottom: 1.71vw;
+}
+
+.box-link{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.14vw;
+    font-weight: 700;
+    line-height: 1.36vw;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
 .team .section-title{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .team-container{
@@ -676,6 +767,5 @@ footer{
     margin: 20px 300px;
     margin-top: 50px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-
 }
 
