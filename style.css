@@ -38,6 +38,14 @@ body {
     text-align: left;
 }
 
+.menu-icon {
+    display: none; 
+    width: 30px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+}
+
 .right-nav{
     display: flex;
     gap: 47px;
@@ -251,7 +259,7 @@ body {
 .sub-title {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -717,7 +725,7 @@ footer{
 .footer-left p{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
@@ -769,3 +777,439 @@ footer{
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 576px) {
+
+.banner {
+    height: 1024px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}    
+
+.navigation{
+    margin-top: 52px;
+}
+
+.left-nav{
+    margin-left: 20px;
+}
+
+.menu-icon {
+    display: block;
+}
+
+
+.right-nav{
+    display: none;
+}
+
+.home{
+    display: none;
+}
+
+.banner-middle{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-left: 20px;
+    margin-top: 28px;
+}
+
+.banner-text{
+    font-size: 36px;
+    width: 300px;
+}
+
+.highlight {
+    font-size: 40px;
+}
+
+.subtext {
+    width: 274px;
+    margin-top: 20px;
+    margin-left: 2px;
+
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap:2px
+}
+
+.join-button{
+    font-size: 18px;
+    margin-right: 30px;
+    width: 200px;
+}
+
+.download-button {
+    margin-right: 18px;
+    width: 200px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.img{
+    margin-left: 80px;
+
+}
+
+.video-info {
+    position: absolute;
+    top: 529px; 
+    right: 120px;
+}
+
+.video-badge{
+    font-size: 25px;
+}
+
+.video-tutorial{
+    position: absolute;
+    top: 800px; 
+    right: 185px;
+}
+
+.circle{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    margin-left: 18px;
+}
+
+
+.tutorial-badge{
+    font-size: 25px;
+}
+
+.badge0, .badge1{
+    font-size: 13px;
+}
+
+.video-badge span{
+    font-size: 12px;
+    
+}
+
+.tutorial-badge span{
+    font-size: 12px;
+}
+
+.habits {
+    margin-top: 50px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}    
+   
+
+.sub-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.habits-container {
+    gap: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.habit {
+    padding: 8px;
+}
+
+.habit img {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 10px;
+    
+}
+
+.habit h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.habit p {
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.extra-mile {
+    margin-top: 20px;
+}
+
+.extra-mile-container {
+    width: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-mile-text {
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+.extra-mile-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px; 
+}
+
+.extra-mile-text p {
+    font-size: 12px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+
+    
+}
+
+.extra-mile-text .join-now {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.extra-mile-image {
+    width: 287px; 
+    height: 170px; 
+}
+
+.extra-mile-image img {
+    width: 100%; 
+    transform: scale(1.5); 
+}    
+
+.bmi-calculator .section-title{
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.bmi-calculator .sub-title{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 370px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.bmi-container {
+    gap: 5px;
+    
+}
+
+
+
+.chart-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.bmi-chart {
+    max-width: 310px;
+}
+
+.font-opacity{
+    font-size: 14px;
+}
+
+
+thead tr, tbody tr {
+    height: 30px; 
+}
+
+
+.bmi-chart table {
+    width: 90%;
+}
+
+.bmi-calculation {
+    width: 350px;
+    margin-right: 20px;
+}
+
+.form{
+    width: 350px;
+}
+
+.input-control{
+    font-size: large;
+
+    
+}
+
+.bmi-calculation .chart-title{
+    margin-bottom: 8px;
+    margin-left: 4px;
+}
+
+.bmi-calculation .sub-title{
+    text-align: left;
+    width: 300px;
+}
+
+.height-weight{
+    display: flex;
+    gap: 10px;
+}
+
+.age-sex{
+    display: flex;
+    gap: 10px;
+}
+
+.bmi-calculation input,
+.bmi-calculation select{
+    margin-bottom: 8px;
+}
+
+.calculate-btn {
+    font-size: 17px;
+    margin-top: 10px;
+    width: 220px;
+    
+}
+
+.membership-title{
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.membership-description{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-description{
+  
+    font-size: 10px;
+    line-height: 10px;
+  
+}
+
+.box-link{
+    font-size: 10px;
+}
+
+.box-title{
+    font-size: 16px;
+}
+
+.flex .join-button{
+    padding: 10px 20px;
+    font-size: 12px;
+    width: 100px;
+
+}
+
+.flex{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.team .sub-title{
+    width: 310px;
+    margin: 0 auto;   
+    margin-bottom: 20px;
+}
+
+.team-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.upper-sec{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-bottom: 10px;
+}
+
+.down-sec{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.team-member img{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.team-member h3 {
+    margin-top: -60px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+p{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+footer{
+    width: 500px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left{
+    margin-bottom: 20px;
+}
+
+.footer-left h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.footer-left p{
+    font-size: 16px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.footer-note {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.line{
+    margin: 20px 100px;
+    margin-top: 30px;
+}
+}
