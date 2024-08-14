@@ -6,7 +6,144 @@
     <title>Fitness Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <div class="banner">
+        <div class="navigation">
+            <h2 class="left-nav"><i>Fitness</i></h2>
+            <div class="right-nav">
+                <h3 class="home">Home</h3>
+                <h3>Service</h3>
+                <h3>Contact</h3>
+                <h3>About</h3>
+            </div>    
+        </div>
+        <div class="banner-middle">
+            <div class="text-container">
+                <h1 class="banner-text">Get body in <br> <span class="highlight">shape</span> & stay <br> healthy</h1>
+                <p class="subtext">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="buttons">
+                    <button class="join-button">Join Club Now!</button>
+                    <button class="download-button">Download App</button>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="img" src="images/image.png" alt="a man doing workout">
+            </div>
+            <div class="video-info">
+                <div class="video-badge">500+ <span class="badge0">Free Workout Videos</span></div>
+            </div>
+            <div class="video-tutorial">
+                <div class="circle"></div>
+                <div class="tutorial-badge">350+ <span class="badge1">Video tutorial</span></div>
+            </div>
+        </div>  
+    </div>  
+</header>
 <body>
+    <section class="habits">
+        <h2 class="section-title">Change Your Habits</h2>
+        <h4 class="sub-title">We believe fitness should be accessible to everyone, everywhere, regardless of income or
+            access to a gym.</h4>
+        <div class="habits-container">
+            <div class="habit">
+                <img src="images/image 3.png" alt="Movement">
+                <h3>Movement</h3>
+                <p>We believe fitness should be accessible to everyone.</p>
+            </div>
+            <div class="habit">
+                <img src="images/image 2.png" alt="Time">
+                <h3>Time</h3>
+                <p>We believe fitness should be accessible to everyone.</p>
+            </div>
+            <div class="habit">
+                <img src="images/image 4.png" alt="Practice">
+                <h3>Practice</h3>
+                <p>We believe fitness should be accessible to everyone.</p>
+            </div>
+            <div class="habit">
+                <img src="images/image 5.png" alt="Weight Loss">
+                <h3>Weight Loss</h3>
+                <p>We believe fitness should be accessible to everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="extra-mile">
+        <div class="extra-mile-container">
+            <div class="extra-mile-text">
+                <h2>Run an Extra Mile Easily</h2>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <button class="join-now">Join Now</button>
+            </div>
+            <div class="extra-mile-image">
+                <img src="images/run.jpg" alt="Running">
+            </div>
+        </div>
+    </section>
+
+    <section class="bmi-calculator">
+        <h2 class="section-title">BMI Calculator</h2>
+        <h4 class="sub-title">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</h4>
+        <div class="bmi-container">
+            <div class="bmi-chart">
+                <h2 class="chart-title">BMI Calculator Chart</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-opacity">Below 18.5</td>
+                            <td class="font-opacity">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td class="font-opacity">18.5 - 24.9</td>
+                            <td class="font-opacity">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="font-opacity">25.0 - 29.9</td>
+                            <td class="font-opacity">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="font-opacity">30.0 and Above</td>
+                            <td class="font-opacity">Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="bmi-calculation">
+                <h2 class="chart-title">Calculate Your BMI</h2>
+                <h4 class="sub-title">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </h4>
+                <form class="form">
+                    <div class="height-weight">
+                    <input class="input-control" type="text" placeholder="Height/cm" id="height">
+                    <input class="input-control" type="text" placeholder="Weight/kg" id="weight">
+                    </div>
+                    <div class="age-sex">
+                    <input class="input-control" type="text" placeholder="Age" id="age">
+                    <select class="input-control" id="sex">
+                        <option value="" disabled selected>sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    </div>
+                    <select class="input-control" id="activity">
+                        <option value="" disabled selected>Select an activity factor</option>
+                        <option>Low</option>
+                        <option>Moderate</option>
+                        <option>High</option>
+                    </select>
+                    <button class="calculate-btn">Calculate</button>
+                </form>
+            </div>
+        </div>
+    </section>
     
 </body>
+<footer>
+
+</footer>
 </html>
