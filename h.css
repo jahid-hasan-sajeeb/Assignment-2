@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #000; /* Dark background */
+}
+
+.team {
+    
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.upper-sec{
+    display: flex;
+}
+
+.down-sec{
+    display: flex;
+}
+
+.team-member {
+    background-color: #222; /* Darker background for cards */
+    border: none; /* Removed border */
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 325px; 
+    height: 270px;
+    aspect-ratio: 1 / 1; /* Forces a square aspect ratio */
+    margin-bottom: 10px;
+    border-radius: 10px; /* Slightly rounded corners for images */
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.team-member p {
+    font-size: 1rem;
+    margin: 0;
+    color: #ddd; /* Light grey text */
+}
