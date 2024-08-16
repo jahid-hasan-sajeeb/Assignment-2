@@ -77,13 +77,13 @@ body {
     cursor: pointer;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 6.13vw;
+    margin-right: 10vw;
 }
 
 .menubar {
     width: 3vw;
     height: 0.5vw;
-    background-color: rgb(232, 245, 53);
+    background-color: rgb(255, 255, 255);
     margin: 0.5vw 0;
 }
 
@@ -459,10 +459,10 @@ thead tr, tbody tr {
 
 .bmi-chart th,
 .bmi-chart td {
-    border: 0.05vw solid #444;
+    border: 0.1vw solid #676464;
     padding: 0.52vw;
     text-align: left;
-    padding-left: 3.5vw;
+    padding-left: 2vw;
 }
 
 .bmi-calculation {
@@ -582,7 +582,7 @@ thead tr, tbody tr {
 
 .box-2 {
     border-radius: 1.10vw;
-    background: rgba(43, 99, 212);
+    background: rgb(72, 124, 228);
     padding: 2.71vw;
 }
 
@@ -682,12 +682,17 @@ thead tr, tbody tr {
         -0.05vw 0.05vw 0 rgba(0, 0, 0, 0.7);
 }
 
-p {
+.team-member p {
     margin-left: 0.52vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 0.78vw;
     font-weight: 400;
+    text-shadow:
+        0.05vw 0.05vw 0 rgba(0, 0, 0, 0.7),
+        -0.05vw -0.05vw 0 rgba(0, 0, 0, 0.7),
+        0.05vw -0.05vw 0 rgba(0, 0, 0, 0.7),
+        -0.05vw 0.05vw 0 rgba(0, 0, 0, 0.7);
 }
 
 footer {
@@ -1187,18 +1192,23 @@ footer {
         font-size: 2.42vw;
     }
     
-    p {
-        margin-left: 2.78vw;
-        font-size: 2.42vw;
+    .team-member p {
+        margin-left: 1.7vw;
+        font-size: 2vw;
     }
     
     footer {
-        width: 86.81vw;
+        width: 100vw;
+        padding-top: 8vw;
+        
     }
     
     .footer-container {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        margin-left: 18vw;
+        gap: 4vw;
     }
     
     .footer-left {
@@ -1207,32 +1217,33 @@ footer {
     
     .footer-left h2 {
         font-size: 5.21vw;
-        margin-bottom: 1.74vw;
         margin: 0 auto;
     }
     
     .footer-left p {
         font-size: 2.78vw;
-        width: 52.08vw;
+        line-height: 4vw;
+        width: 60vw;
         margin: 0 auto;
+        margin-top: 2vw;
     }
     
     .footer-links h3 {
-        font-size: 4.33vw;
+        font-size: 4vw;
     }
     
     .footer-links ul {
-        font-size: 3.13vw;
+        font-size: 3vw;
     }
     
     .footer-note {
         margin-top: 2.78vw;
         font-size: 2.78vw;
-        margin-bottom: 3.47vw;
+        margin-bottom: 8vw;
     }
     
     .line {
-        margin: 2.78vw 17.36vw;
+        margin: 3vw 17vw;
         margin-top: 5.21vw;
     }
 }    
