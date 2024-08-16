@@ -13,93 +13,95 @@ body {
 }
 
 .banner {
-    height: 715px;
-    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgb(44, 42, 42),rgb(44, 42, 42), rgb(0, 0, 0) 100%);
+    height: 37.24vw;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(44, 42, 42), rgb(44, 42, 42), rgb(0, 0, 0) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}    
+}
 
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 58.5px;
+    margin-top: 3.05vw;
 }
 
-.left-nav{
-    margin-left: 190px;
+.left-nav {
+    margin-left: 9.9vw;
     color: rgb(230, 83, 60);
     font-family: Inter, sans-serif;
-    font-size: 36px;
+    font-size: 1.88vw;
     font-weight: 800;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
-.menu-icon {
-    display: none; 
-    width: 30px;
-    height: 22px;
-    position: relative;
-    cursor: pointer;
-}
-
-.right-nav{
+.right-nav {
     display: flex;
-    gap: 47px;
-    margin-right: 190px;
-    width: 465px;
-    height: 46px;
-    display: flex;
+    gap: 2.45vw;
+    margin-right: 9.9vw;
+    width: 24.27vw;
+    height: 2.40vw;
     justify-content: flex-start;
     align-items: center;
-    padding: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 39px;
-    color: rgb(255, 255, 255,0.8);
+    padding: 0.21vw;
+    border: 0.05vw solid rgba(255, 255, 255, 0.2);
+    border-radius: 2.03vw;
+    color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 400;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
 }
 
-.home{
-    border-radius: 46px;
+.home {
+    border-radius: 2.40vw;
     background: rgb(230, 83, 60);
-    width: 92px;
-    height: 38px;
+    width: 4.79vw;
+    height: 1.98vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 20px 8px 20px;
-    color: rgb(255, 255, 255);
+    padding: 0.83vw 1.04vw;
+    color: #fff;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 0.94vw;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 
-.banner-middle{
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 6.13vw;
+}
+
+.menubar {
+    width: 3vw;
+    height: 0.5vw;
+    background-color: rgb(232, 245, 53);
+    margin: 0.5vw 0;
+}
+
+.banner-middle {
     display: flex;
     justify-content: space-between;
-    margin-right: 214px;
+    margin-right: 11.14vw;
 }
 
 .text-container {
-    margin-left: 190px;
-    margin-top: 96px;
+    margin-left: 9.9vw;
+    margin-top: 5.00vw;
 }
 
-.banner-text{
+.banner-text {
     color: rgb(255, 255, 255);
     font-family: Inter, sans-serif;
-    font-size: 78px;
+    font-size: 4.06vw;
     font-weight: 900;
     line-height: 120%;
     text-align: left;
@@ -107,49 +109,48 @@ body {
 
 .highlight {
     font-family: "Dancing Script", cursive;
-    font-size: 120px;
-   
+    font-size: 6.25vw;
 }
 
 .subtext {
-    margin-top: 20px;
+    margin-top: 1.04vw;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
+    line-height: 1.25vw;
+    letter-spacing: 0.03vw;
     text-align: left;
-    max-width: 520px;
+    width: 27.08vw;
 }
 
 .buttons {
-    margin-top: 30px;
+    margin-top: 1.56vw;
 }
 
-.join-button{
-    border-radius: 42px;
+.join-button {
+    border-radius: 2.19vw;
     background: rgb(230, 83, 60);
     color: white;
     border: 0;
-    padding: 16px 40px 16px 40px;
+    padding: 0.83vw 2.08vw;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 600;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 0.78vw;
 }
 
 .download-button {
-    border-radius: 42px;
-    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2.19vw;
+    border: 0.05vw solid rgb(255, 255, 255);
     color: white;
-    padding: 16px 40px 16px 40px;
+    padding: 0.83vw 2.08vw;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 600;
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 0.78vw;
 }
 
 .download-button {
@@ -158,38 +159,40 @@ body {
 
 .image-container {
     position: relative;
-    margin-top: 32px;
+    margin-top: 1.67vw;
 }
 
-.img{
-    margin-right: 32px;
+.img {
+    width: 19vw;
+    height: 30vw;
+    margin-right: 1.67vw;
 }
 
 .video-info {
     position: absolute;
-    top: 28%; 
-    right: 150px;
+    top: 15vw; 
+    right: 7.8vw;
 }
 
 .video-badge{
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 0.625vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2.08vw;
     font-weight: 900;
-    line-height: 40px;
-    letter-spacing: 1px;
+    line-height: 2.08vw;
+    letter-spacing: 0.1vw;
     text-align: left;
-    padding: 16px 24px;
+    padding: 0.8vw 1.05vw;
 }
 
 .video-tutorial{
     position: absolute;
-    top: 60%; 
-    right: 500px;
+    top: 28vw; 
+    right: 27vw;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
+    border-radius: 0.625vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -197,10 +200,10 @@ body {
 
 .circle{
     background-color: orangered;
-    border-radius: 40px;
-    height: 40px;
-    width: 40px;
-    margin-left: 23px;
+    border-radius: 2.1vw;
+    height: 2.1vw;
+    width: 2.1vw;
+    margin-left: 1.1vw;
 }
 
 
@@ -208,49 +211,47 @@ body {
     
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 25px;
+    font-size: 1.3vw;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 2.08vw;
     letter-spacing: 1px;
     text-align: left;
-    padding: 16px 24px;
+    padding: 0.83vw 1.25vw;
 }
 
 .badge0, .badge1{
     color: rgba(255, 255, 255, 0.65);
     font-family: Inter;
-    font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 1px;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 0.26vw;
 }
 
 .video-badge span{
     display: block;
-    font-size: 14px;
+    font-size: 0.73vw;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .tutorial-badge span{
     display: block;
-    font-size: 14px;
+    font-size: 0.73vw;
     color: rgba(255, 255, 255, 0.7);
 }
 
 .habits {
-    padding: 40px 20px;
     background-color: #000;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5.21vw;
 }
 
 .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 1.04vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 2.50vw;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
@@ -259,121 +260,117 @@ body {
 .sub-title {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.25vw;
+    letter-spacing: 0.03vw;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.08vw;
 }
 
 .habits-container {
     display: flex;
-    justify-content: center; 
-    gap: 60px; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 3.13vw;
+    flex-wrap: wrap;
 }
 
 .habit {
-    background-color: transparent; 
-    padding: 10px;
+    padding: 0.5vw;
     text-align: center;
 }
 
 .habit img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; 
+    width: 10.42vw;
+    height: 10.42vw;
+    border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
-    border: 5px solid #1d1d1d; 
+    margin-bottom: 1.04vw;
+    border: 0.26vw solid #1d1d1d;
 }
 
 .habit h3 {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 0.94vw;
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
 }
 
 .habit p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.73vw;
     font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.3px;
+    line-height: 1.04vw;
+    letter-spacing: 0.03vw;
     text-align: center;
-    max-width: 230px;
+    width: 12.08vw;
 }
 
 .extra-mile {
-    background-color: #000000; 
+    background-color: #000000;
     color: #fff;
-    padding: 40px 20px;
+    padding: 2.08vw 1.04vw;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5.21vw;
 }
 
 .extra-mile-container {
     background-color: #333;
-    border-radius: 20px;
-    margin-top: 30px;
+    border-radius: 1.04vw;
     width: 60%;
-    padding: 25px 40px;
+    padding: 1.30vw 2.08vw;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin: 0 auto;
 }
 
 .extra-mile-text {
     color: #ffffff;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.04vw;
     line-height: 1.5;
-    width: 340px;
-    margin-left: 30px;
+    width: 17.71vw;
+    margin-left: 1.56vw;
 }
 
 .extra-mile-text h2 {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 48px;
+    font-size: 2.50vw;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 20px; 
+    margin-bottom: 1.04vw;
 }
 
 .extra-mile-text p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 14px;
+    font-size: 0.73vw;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.25vw;
+    letter-spacing: 0.03vw;
     text-align: left;
-    margin-bottom: 20px;
-    
+    margin-bottom: 1.04vw;
 }
 
 .extra-mile-text .join-now {
-    background: rgb(230, 83, 60); 
+    background: rgb(230, 83, 60);
     color: #fff;
-    padding: 16px 60px;
+    padding: 0.83vw 3.13vw;
     border: none;
     cursor: pointer;
-    border-radius: 40px; 
+    border-radius: 2.08vw;
     transition: background-color 0.3s;
-    font-size: 1.2rem;
+    font-size: 1vw;
     font-family: Inter;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 1.15vw;
     display: flex;
 }
 
@@ -382,83 +379,77 @@ body {
 }
 
 .extra-mile-image {
-    width: 350px; 
-    height: 300px; 
-    overflow: hidden; 
-    border-radius: 15px; 
+    width: 18.23vw;
+    height: 15.62vw;
+    overflow: hidden;
+    border-radius: 0.78vw;
     display: flex;
-    justify-content: end; 
-    align-items:start; 
+    justify-content: end;
+    align-items: start;
 }
 
 .extra-mile-image img {
-    width: 190%; 
-    object-fit: cover; 
-    transform: scale(1.8); 
-}    
-
+    width: 36.72vw;
+    object-fit: cover;
+    transform: scale(1.8);
+}
 
 .bmi-calculator {
     background-color: #000;
     text-align: center;
 }
 
-.bmi-calculator .section-title{
-    margin-top: 100px;
+.bmi-calculator .section-title {
+    margin-top: 5.21vw;
 }
 
 .bmi-container {
     background-color: #333;
     width: 100%;
-    padding: 25px 40px;
+    padding: 1.30vw 2.08vw;
     display: flex;
-    justify-content:space-evenly;
-    align-items:flex-start;
-    gap: 20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1.04vw;
     flex-wrap: wrap;
 }
 
-
-
-.chart-title{
+.chart-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 28px;
+    font-size: 1.46vw;
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 2.08vw;
 }
 
 .bmi-chart {
     background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.04vw;
     width: 100%;
-    max-width: 500px;
+    max-width: 26.04vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
 }
 
-.font-opacity{
-    color: rgb(255, 255, 255,0.5);
+.font-opacity {
+    color: rgb(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 0.83vw;
     font-weight: 500;
     line-height: 120%;
 }
 
-
 thead tr, tbody tr {
-    height: 50px; 
+    height: 2.60vw;
 }
-
 
 .bmi-chart table {
     width: 100%;
@@ -468,55 +459,54 @@ thead tr, tbody tr {
 
 .bmi-chart th,
 .bmi-chart td {
-    border: 1px solid #444;
-    padding: 10px;
+    border: 0.05vw solid #444;
+    padding: 0.52vw;
     text-align: left;
+    padding-left: 3.5vw;
 }
 
 .bmi-calculation {
     background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 400px;
-    margin-right: 200px;
+    padding: 1.04vw;
+    border-radius: 0.52vw;
+    width: 20.83vw;
+    margin-right: 10.42vw;
 }
 
-.form{
-    width: 600px;
+.form {
+    width: 31.25vw;
 }
 
-.input-control{
-    font-size: larger;
-
-    
+.input-control {
+    font-size: 1vw;
 }
 
-.bmi-calculation .chart-title{
-    margin-bottom: 14px;
+.bmi-calculation .chart-title {
+    margin-bottom: 0.73vw;
 }
 
-.bmi-calculation .sub-title{
+.bmi-calculation .sub-title {
     text-align: left;
-    width: 600px;
+    width: 31.25vw;
 }
 
-.height-weight{
+.height-weight {
     display: flex;
-    gap: 15px;
+    gap: 0.78vw;
 }
 
-.age-sex{
+.age-sex {
     display: flex;
-    gap: 15px;
+    gap: 0.78vw;
 }
 
 .bmi-calculation input,
-.bmi-calculation select{
+.bmi-calculation select {
     width: 100%;
-    padding: 12px 12px;
-    margin-bottom: 10px;
+    padding: 0.63vw 0.63vw;
+    margin-bottom: 0.52vw;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.26vw;
     background-color: #444;
 }
 
@@ -525,18 +515,17 @@ thead tr, tbody tr {
     border: 0;
     color: #fff;
     cursor: pointer;
-    padding: 16px 40px 16px 40px;
-    border-radius: 42px;
+    padding: 0.83vw 2.08vw;
+    border-radius: 2.19vw;
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 0.94vw;
     font-weight: 600;
-    line-height: 22px;
-    margin-top: 35px;
-    width: 250px;
-    
+    line-height: 1.15vw;
+    margin-top: 1.82vw;
+    width: 13.02vw;
 }
 
 .bmi-calculation input::placeholder {
@@ -548,201 +537,198 @@ thead tr, tbody tr {
     color: #bbb;
 }
 
-
-.membership{
+.membership {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
+    padding: 0;
 }
 
-.membership-title{
+.membership-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 2.29vw;
+    font-size: 2.19vw;
     font-weight: 800;
-    line-height: 2.64vw;
-    letter-spacing: 0%;
+    line-height: 2.71vw;
     text-align: center;
-    margin-bottom: 1.71vw;
-    margin-top: 100px;
+    margin-bottom: 1.77vw;
+    margin-top: 5.21vw;
 }
 
-.membership-description{
+.membership-description {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1.14vw;
+    font-size: 1.10vw;
     font-weight: 400;
-    line-height: 1.86vw;
-    letter-spacing: 0%;
+    line-height: 1.88vw;
     text-align: center;
     width: 60.86vw;
     opacity: 0.7;
-    margin-bottom: 3.43vw;
+    margin-bottom: 3.57vw;
 }
 
-.box-container{
+.box-container {
     display: flex;
-    gap:1.71vw;
+    gap: 1.77vw;
     margin-bottom: 7.93vw;
 }
 
-.box-1{
-    border-radius: 1.14vw;
+.box-1 {
+    border-radius: 1.10vw;
     background: rgb(193, 76, 187);
-    padding: 2.86vw;
+    padding: 2.71vw;
 }
 
-.box-2{
-    border-radius: 1.14vw;
+.box-2 {
+    border-radius: 1.10vw;
     background: rgba(43, 99, 212);
-    padding: 2.86vw;
+    padding: 2.71vw;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.box-title{
+.box-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1.71vw;
+    font-size: 1.77vw;
     font-weight: 800;
-    line-height: 2.57vw;
+    line-height: 2.60vw;
     text-align: left;
-    margin-bottom: 0.57vw;
+    margin-bottom: 0.54vw;
 }
 
-.box-description{
+.box-description {
     color: rgb(0, 0, 0);
     font-family: Inter;
-    font-size: 1.14vw;
+    font-size: 1.10vw;
     font-weight: 400;
-    line-height: 1.86vw;
+    line-height: 1.88vw;
     text-align: left;
     opacity: 0.7;
     width: 20.29vw;
-    margin-bottom: 1.71vw;
+    margin-bottom: 1.77vw;
+    margin-top: 1vw;
+    margin-left: 0.01vw;
 }
 
-.box-link{
+.box-link {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 1.14vw;
+    font-size: 1.10vw;
     font-weight: 700;
-    line-height: 1.36vw;
-    letter-spacing: 0%;
+    line-height: 1.40vw;
     text-align: left;
     text-decoration-line: underline;
 }
 
+.flex .join-button {
+    padding: 1vw 1.8vw;
+    font-size: 1vw;
+    width: 9vw;
+}
 
-.team .section-title{
+.team .section-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.52vw;
 }
 
-.team-container{
-    border-radius: 18px;
+.team-container {
+    border-radius: 0.94vw;
     background: rgba(255, 255, 255, 0.1);
-    width: 1080px;
+    width: 56.25vw;
     margin: 0 auto;
-    padding: 20px;
-    padding-bottom: 32px;
-    margin-bottom: 100px;
+    padding: 1.04vw;
+    padding-bottom: 1.67vw;
+    margin-bottom: 5.21vw;
 }
 
-.upper-sec{
+.upper-sec {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
-    margin-bottom: 30px;
+    gap: 1.04vw;
+    margin-bottom: 1.56vw;
 }
 
-.down-sec{
+.down-sec {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:20px;
+    gap: 1.04vw;
 }
 
-.team-member img{
-    width: 333px;
-    height: 250px;
-    border-radius: 18px;
+.team-member img {
+    width: 17.36vw;
+    height: 13.02vw;
+    border-radius: 0.94vw;
 }
 
 .team-member h3 {
-    margin-top: -60px;
-    margin-left: 10px;
+    margin-top: -3.13vw;
+    margin-left: 0.52vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 800;
-    text-shadow: 
-    1px 1px 0 rgba(0, 0, 0, 0.7), 
-    -1px -1px 0 rgba(0, 0, 0, 0.7), 
-    1px -1px 0 rgba(0, 0, 0, 0.7), 
-    -1px 1px 0 rgba(0, 0, 0, 0.7); 
+    text-shadow:
+        0.05vw 0.05vw 0 rgba(0, 0, 0, 0.7),
+        -0.05vw -0.05vw 0 rgba(0, 0, 0, 0.7),
+        0.05vw -0.05vw 0 rgba(0, 0, 0, 0.7),
+        -0.05vw 0.05vw 0 rgba(0, 0, 0, 0.7);
 }
 
-
-p{
-    margin-left: 10px;
+p {
+    margin-left: 0.52vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 15px;
+    font-size: 0.78vw;
     font-weight: 400;
 }
 
-footer{
+footer {
     background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    padding-top: 50px;
+    padding: 0.78vw;
+    padding-top: 2.60vw;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
 .footer-left h2 {
     color: rgb(230, 83, 60);
     font-family: Inter, sans-serif;
-    font-size: 70px;
+    font-size: 3.65vw;
     font-weight: 800;
     line-height: 120%;
-    font-family: Inter;
-    margin-bottom: 20px;
+    margin-bottom: 1.04vw;
 }
 
-.footer-left p{
+.footer-left p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 18px;
+    font-size: 0.94vw;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    width: 440px;
+    line-height: 1.25vw;
+    width: 22.92vw;
 }
 
-
 .footer-links h3 {
-    margin-bottom: 10px;
+    margin-bottom: 0.52vw;
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 32px;
+    font-size: 1.67vw;
     font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0%;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 2.08vw;
 }
 
 .footer-links ul {
@@ -750,474 +736,503 @@ footer{
     padding-left: 0;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 23px;
+    font-size: 1.20vw;
     font-weight: 400;
     line-height: 120%;
 }
 
 .footer-links ul li {
-    margin-bottom: 20px;
+    margin-bottom: 1.04vw;
 }
 
 .footer-note {
-    margin-top: 20px;
+    margin-top: 1.04vw;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
+    line-height: 1.25vw;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.60vw;
 }
 
-.line{
-    margin: 20px 300px;
-    margin-top: 50px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+.line {
+    margin: 1.04vw 15.62vw;
+    margin-top: 2.60vw;
+    border: 0.10vw solid rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 576px) {
 
-.banner {
-    height: 1024px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    .hamburger-menu {
+        display: flex;
+    }
+    
+    .right-nav, .home {
+        display: none;
+    }
+    
+    .banner {
+        height: 177.78vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .navigation {
+        margin-top: 9.03vw;
+    }
+    
+    .left-nav {
+        margin-left: 7vw;
+        font-size: 6.25vw;
+    }
+    
+    .right-nav {
+        display: none;
+    }
+    
+    .home {
+        display: none;
+    }
+    
+    .banner-middle {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-container {
+        margin-left: 7vw;
+        margin-top: 10vw;
+    }
+    
+    .banner-text {
+        font-size: 10vw;
+        width: 75vw;
+    }
+    
+    .highlight {
+        font-size: 14vw;
+    }
+    
+    .subtext {
+        width: 75vw;
+        margin-top: 5vw;
+        margin-left: 0.1vw;
+        font-size: 3.5vw;
+        line-height: 5.8vw;
+    }
+    
+    .buttons {
+        margin-top: 6vw;
+        display: flex;
+    }
+    
+    .join-button {
+        margin-right: 5vw;
+        width: 33vw;
+        padding: 3vw 6vw ;
+        border-radius: 6vw;
+        font-size: 3.8vw;
+    }
+    
+    .download-button {
+        width: 40vw;
+        border-radius: 6vw;
+        font-size: 3.8vw;
+        padding: 3vw 6vw ;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        height: 120vw;
+        overflow: hidden;
+        margin-top: 10vw;
+    }
+    
+    .img {
+        margin-left: 6.5vw;
+        width: 85vw;
+        height: 145vw;
+    }
+    
+    .video-info {
+        position: absolute;
+        top: 130vw;
+        right: 12vw;
+    }
+    
+    .video-badge {
+        font-size: 7vw;
+        border-radius: 3vw;
+        line-height: 7vw;
+        letter-spacing: 1vw;
+        padding: 3vw 3vw;
+    }
+    
+    .video-tutorial {
+        position: absolute;
+        top: 180vw;
+        right: 60vw;
+        border-radius: 3vw;
+    }
+    
+    .circle {
+        border-radius: 3.47vw;
+        height: 6.94vw;
+        width: 6.94vw;
+        margin-left: 3.13vw;
+    }
+    
+    .tutorial-badge {
+        font-size: 4vw;
+        line-height: 7vw;
+        letter-spacing: 0.6vw;
+        line-height: 5vw;
+        padding: 2.5vw 2.5vw;
+    }
+    
+    .video-badge span {
+        font-size: 2.3vw;
+    }
+    
+    .tutorial-badge span {
+        font-size: 2.3vw;
+    }
+    
+    .habits {
+        margin-top: 70vw;
+    }
+    
+    .habits .section-title {
+        margin-bottom: 2.5vw;
+        font-size: 6vw;
+    }
+    
+    .sub-title {
+        font-size: 3vw;
+        width: 70vw;
+        line-height: 4vw;
+        margin: 0 auto;
+    }
+    
+    .habits-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+        margin-top: 4vw;
+    }
+    
+    .habit img {
+        width: 38vw;
+        height: 38vw;
+        margin-bottom: 4vw;
+        border: 1vw solid #343333;
+    }
+    
+    .habit h3 {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+    }
+    
+    .habit p {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        margin: 0 auto;
+        width: 58vw;
+    }
+    
+    .extra-mile {
+        margin-top: 15vw;
+    }
+    
+    .extra-mile-container {
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 6vw 0.2vw;
+        border-radius: 6vw;
+        
+    }
+    
+    .extra-mile-text {
+        margin-bottom: 6vw;
+        width: 48.61vw;
+        margin-left: 0.1vw;
+    }
+    
+    .extra-mile-text h2 {
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+    
+    .extra-mile-text p {
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 55vw;
+        margin-bottom: 5vw;
+        margin-left: 0.1vw;
+    }
+    
+    .extra-mile-text .join-now {
+        font-size: 3.13vw;
+        width: 40vw;
+        padding: 4vw;
+        border-radius: 6vw;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5.21vw;
+    }
+    
+    .extra-mile-image {
+        width: 49.79vw;
+        height: 29.44vw;
+        border-radius: 4vw;
+    }
+    
+    .extra-mile-image img {
+        width: 100%;
+        transform: scale(1.5);
+    }
+    
+    .bmi-calculator .section-title {
+        margin-top: 10vw;
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+    
+    .bmi-calculator .sub-title {
+        font-size: 2.8vw;
+        width: 70vw;
+        margin: 0 auto;
+        margin-bottom: 4vw;
+    }
+    
+    .bmi-container {
+        flex-direction: column;
+        padding: 0.5vw 6vw;
+    }
+    
+    .chart-title {
+        font-size: 3.33vw;
+        margin-top: 5vw;
+        margin-left: 0.6vw;
+    }
+    
+    .bmi-chart {
+        max-width: 70vw;
+        font-size: 2.5vw;
+    }
+    
+    .font-opacity {
+        font-size: 2.5vw;
+    }
+    
+    thead tr, tbody tr {
+        height: 6vw;
+    }
+    
+    .bmi-chart table {
+        width: 90%;
+    }
+    
+    .bmi-calculation {
+        width: 85vw;
+        margin-right: 3.47vw;
+    }
+    
+    .form {
+        width: 85vw;
+    }
+    
+    .input-control {
+        font-size: 3vw;
+    }
+    
+    .bmi-calculation .chart-title {
+        margin-bottom: 2vw;
+        margin-left: 0.87vw;
+    }
+    
+    .bmi-calculation .sub-title {
+        margin-left: 0.6vw;
+        width: 70vw;
+    }
+    
+    .height-weight {
+        display: flex;
+        gap: 2vw;
+    }
+    
+    .age-sex {
+        display: flex;
+        gap: 2vw;
+    }
+    
+    .bmi-calculation input,
+    .bmi-calculation select {
+        margin-bottom: 2vw;
+    }
+    
+    .calculate-btn {
+        font-size: 3vw;
+        padding: 4vw;
+        border-radius: 5vw;
+        margin-top: 2.5vw;
+        width: 38.33vw;
+        margin-bottom: 4vw;
+    }
+    
+    .membership-title {
+        margin-top: 10vw;
+        font-size: 7vw;
+    }
+    
+    .membership-description {
+        font-size: 3vw;
+        margin-top: 3.5vw;
+        line-height: 4vw;
+        width: 80vw;
+        margin-bottom: 5vw;
+    }
+
+    .box-title {
+        font-size: 2vw;
+        line-height: 2.60vw;
+        margin-bottom: 2vw;
+    }
+    
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+    
+    .box-description {
+        font-size: 2vw;
+        line-height: 1.94vw;
+        width: 30vw;
+        margin-top: 1.5vw;
+        margin-left: 0.1vw;
+    }
+    
+    .box-link {
+        font-size: 1.94vw;
+    }
+    
+    .box-title {
+        font-size: 3.33vw;
+    }
+    
+    .flex .join-button {
+        padding: 1.39vw 2.78vw;
+        font-size: 2.22vw;
+        width: 18.06vw;
+    }
+    
+    .flex {
+        gap: 5vw;
+    }
+
+    .team .section-title {
+        margin-top: 12vw;
+        font-size: 7vw;
+    }
+    
+    .team .sub-title {
+        width: 80vw;
+        font-size: 2.5vw;
+        margin: 0 auto;
+        margin-bottom: 3.47vw;
+    }
+    
+    .team-container {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        gap: 8vw;
+        border-radius: 2vw;
+        margin-bottom: 10vw;
+        padding-bottom: 11.5vw;
+        padding-top: 4vw;
+    }
+    
+    .upper-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+        margin-bottom: 2vw;
+    }
+    
+    .down-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+    }
+    
+    .team-member img {
+        width: 52.08vw;
+        height: 43.40vw;
+        border-radius: 2.78vw;
+    }
+    
+    .team-member h3 {
+        margin-top: -13.89vw;
+        margin-left: 1.74vw;
+        font-size: 2.42vw;
+    }
+    
+    p {
+        margin-left: 2.78vw;
+        font-size: 2.42vw;
+    }
+    
+    footer {
+        width: 86.81vw;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-left {
+        margin-bottom: 3.47vw;
+    }
+    
+    .footer-left h2 {
+        font-size: 5.21vw;
+        margin-bottom: 1.74vw;
+        margin: 0 auto;
+    }
+    
+    .footer-left p {
+        font-size: 2.78vw;
+        width: 52.08vw;
+        margin: 0 auto;
+    }
+    
+    .footer-links h3 {
+        font-size: 4.33vw;
+    }
+    
+    .footer-links ul {
+        font-size: 3.13vw;
+    }
+    
+    .footer-note {
+        margin-top: 2.78vw;
+        font-size: 2.78vw;
+        margin-bottom: 3.47vw;
+    }
+    
+    .line {
+        margin: 2.78vw 17.36vw;
+        margin-top: 5.21vw;
+    }
 }    
-
-.navigation{
-    margin-top: 52px;
-}
-
-.left-nav{
-    margin-left: 20px;
-}
-
-.menu-icon {
-    display: block;
-}
-
-
-.right-nav{
-    display: none;
-}
-
-.home{
-    display: none;
-}
-
-.banner-middle{
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-}
-
-.text-container {
-    margin-left: 20px;
-    margin-top: 28px;
-}
-
-.banner-text{
-    font-size: 36px;
-    width: 300px;
-}
-
-.highlight {
-    font-size: 40px;
-}
-
-.subtext {
-    width: 274px;
-    margin-top: 20px;
-    margin-left: 2px;
-
-}
-
-.buttons {
-    margin-top: 40px;
-    display: flex;
-    gap:2px
-}
-
-.join-button{
-    font-size: 18px;
-    margin-right: 30px;
-    width: 200px;
-}
-
-.download-button {
-    margin-right: 18px;
-    width: 200px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-}
-
-.img{
-    margin-left: 80px;
-
-}
-
-.video-info {
-    position: absolute;
-    top: 529px; 
-    right: 120px;
-}
-
-.video-badge{
-    font-size: 25px;
-}
-
-.video-tutorial{
-    position: absolute;
-    top: 800px; 
-    right: 185px;
-}
-
-.circle{
-    border-radius: 20px;
-    height: 40px;
-    width: 40px;
-    margin-left: 18px;
-}
-
-
-.tutorial-badge{
-    font-size: 25px;
-}
-
-.badge0, .badge1{
-    font-size: 13px;
-}
-
-.video-badge span{
-    font-size: 12px;
-    
-}
-
-.tutorial-badge span{
-    font-size: 12px;
-}
-
-.habits {
-    margin-top: 50px;
-}
-
-.habits .section-title {
-    margin-bottom: 10px;
-    font-size: 30px;
-}    
-   
-
-.sub-title {
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.habits-container {
-    gap: 20px; 
-    display: flex;
-    flex-direction: column;
-}
-
-.habit {
-    padding: 8px;
-}
-
-.habit img {
-    width: 200px;
-    height: 180px;
-    margin-bottom: 10px;
-    
-}
-
-.habit h3 {
-    font-size: 18px;
-    margin-bottom: 8px;
-}
-
-.habit p {
-    font-size: 12px;
-    margin: 0 auto;
-}
-
-.extra-mile {
-    margin-top: 20px;
-}
-
-.extra-mile-container {
-    width: 353px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.extra-mile-text {
-    font-size: 30px;
-    margin-bottom: 10px;
-    width: 280px;
-}
-
-.extra-mile-text h2 {
-    font-size: 30px;
-    margin-bottom: 10px; 
-}
-
-.extra-mile-text p {
-    font-size: 12px;
-    width: 300px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-
-    
-}
-
-.extra-mile-text .join-now {
-    font-size: 18px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-    margin-bottom: 20px;
-
-}
-
-.extra-mile-image {
-    width: 287px; 
-    height: 170px; 
-}
-
-.extra-mile-image img {
-    width: 100%; 
-    transform: scale(1.5); 
-}    
-
-.bmi-calculator .section-title{
-    margin-top: 10px;
-    font-size: 32px;
-}
-
-.bmi-calculator .sub-title{
-    margin-top: 10px;
-    font-size: 12px;
-    width: 370px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.bmi-container {
-    gap: 5px;
-    
-}
-
-
-
-.chart-title{
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.bmi-chart {
-    max-width: 310px;
-}
-
-.font-opacity{
-    font-size: 14px;
-}
-
-
-thead tr, tbody tr {
-    height: 30px; 
-}
-
-
-.bmi-chart table {
-    width: 90%;
-}
-
-.bmi-calculation {
-    width: 350px;
-    margin-right: 20px;
-}
-
-.form{
-    width: 350px;
-}
-
-.input-control{
-    font-size: large;
-
-    
-}
-
-.bmi-calculation .chart-title{
-    margin-bottom: 8px;
-    margin-left: 4px;
-}
-
-.bmi-calculation .sub-title{
-    text-align: left;
-    width: 300px;
-}
-
-.height-weight{
-    display: flex;
-    gap: 10px;
-}
-
-.age-sex{
-    display: flex;
-    gap: 10px;
-}
-
-.bmi-calculation input,
-.bmi-calculation select{
-    margin-bottom: 8px;
-}
-
-.calculate-btn {
-    font-size: 17px;
-    margin-top: 10px;
-    width: 220px;
-    
-}
-
-.membership-title{
-    margin-top: 30px;
-    font-size: 32px;
-}
-
-.membership-description{
-    font-size: 12px;
-    margin-top: 20px;
-    line-height: 20px;
-}
-
-.box-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.box-description{
-  
-    font-size: 10px;
-    line-height: 10px;
-  
-}
-
-.box-link{
-    font-size: 10px;
-}
-
-.box-title{
-    font-size: 16px;
-}
-
-.flex .join-button{
-    padding: 10px 20px;
-    font-size: 12px;
-    width: 100px;
-
-}
-
-.flex{
-    display: flex;
-    gap: 30px;
-}
-
-
-
-.team .sub-title{
-    width: 310px;
-    margin: 0 auto;   
-    margin-bottom: 20px;
-}
-
-.team-container{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.upper-sec{
-    display: flex;
-    flex-direction: column;
-    gap:50px;
-    margin-bottom: 10px;
-}
-
-.down-sec{
-    display: flex;
-    flex-direction: column;
-    gap:50px;
-}
-
-.team-member img{
-    width: 300px;
-    height: 250px;
-    border-radius: 15px;
-}
-
-.team-member h3 {
-    margin-top: -60px;
-    margin-left: 10px;
-    font-size: 14px;
-}
-
-
-p{
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-footer{
-    width: 500px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-left{
-    margin-bottom: 20px;
-}
-
-.footer-left h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin: 0 auto;
-}
-
-.footer-left p{
-    font-size: 16px;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.footer-links h3{
-    font-size: 25px;
-}
-
-.footer-links ul{
-    font-size: 18px;
-}
-
-
-.footer-note {
-    margin-top: 15px;
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
-.line{
-    margin: 20px 100px;
-    margin-top: 30px;
-}
-}
